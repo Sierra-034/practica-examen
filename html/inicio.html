@@ -47,35 +47,150 @@
 
 	<div class="container">
 		<div class="row mt-3 justify-content-around">
+
+			<!-- Card para objetivo -->
 			<div class="col-4">
 				<div class="card" style="width: 18rem;">
 					<img class="card-img-top" src="../img/objetivo.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Objetivo</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">mostrar</a>
+
+						<!-- Modal section -->
+						<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#objetivoModal">
+							Mostrar
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="objetivoModal" tabindex="-1" role="dialog" aria-labelledby="objetivoModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+
+									<div class="modal-header bg-danger">
+										<h5 class="modal-title text-white" id="objetivoModalLabel">Objetivo</h5>
+										<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<p>
+											In pellentesque vel enim nec condimentum. Proin enim lorem, congue a magna eget, sollicitudin lacinia mi. Sed dictum tellus et purus hendrerit, eu dictum nulla porta. Nunc hendrerit fringilla magna. Sed pulvinar ante nisl. Nam arcu eros, consequat feugiat ultrices quis, consectetur ut libero. Integer eu ante non erat suscipit blandit.
+										</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
 
+			<!-- Card para temario -->
 			<div class="col-4">
 				<div class="card" style="width: 18rem;">
 					<img class="card-img-top" src="../img/temario.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Temario</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">mostrar</a>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#temarioModal">
+							Mostrar
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="temarioModal" tabindex="-1" role="dialog" aria-labelledby="temarioModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered" role="document">
+						    <div class="modal-content">
+
+								<div class="modal-header bg-danger">
+									<h5 class="modal-title text-white" id="temarioModalLabel">Temario</h5>
+									<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+
+								<div class="modal-body">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<h5>Unidad 1</h5>
+											Conceptos generales de la contabilidad
+										</li>
+										<li class="list-group-item">
+											<h5>Unidad 2</h5>
+											Estados financieros
+										</li>
+										<li class="list-group-item">
+											<h5>Unidad 3</h5>
+											Teoría de la partida doble
+										</li>
+										<li class="list-group-item">
+											<h5>unidad 4</h5>
+											Sistemas de registro
+										</li>
+										<li class="list-group-item">
+											<h5>unidad 5</h5>
+											Análisis e interpretación de la información financiera
+										</li>
+									</ul>						        
+								</div>
+
+						    </div>
+						  </div>
+						</div>						
+
 					</div>
 				</div>
 			</div>
 
+			<!-- Card para evaluación -->
 			<div class="col-4">
 				<div class="card" style="width: 18rem;">
 					<img class="card-img-top" src="../img/evaluacion.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Evaluación</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">mostrar</a>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#evaluacionModal">
+						  Mostrar
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="evaluacionModal" tabindex="-1" role="dialog" aria-labelledby="evaluacionModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+
+									<div class="modal-header bg-danger">
+										<h5 class="modal-title text-white" id="evaluacionModalLabel">Evaluacion</h5>
+										<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<ul class="list-group">
+											<li class="list-group-item d-flex justify-content-between align-items-center">
+												Examen
+												<span class="badge badge-primary badge-pill">40%</span>
+											</li>
+											<li class="list-group-item d-flex justify-content-between align-items-center">
+												Proyecto
+												<span class="badge badge-primary badge-pill">60%</span>
+											</li>
+											<li class="list-group-item d-flex justify-content-between align-items-center">
+												Total
+												<span class="badge badge-primary badge-pill">100%</span>
+											</li>
+										</ul>										
+									</div>
+
+								</div>
+							</div>
+						</div>						
+
 					</div>
 				</div>
 			</div>
