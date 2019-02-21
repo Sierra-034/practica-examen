@@ -15,20 +15,20 @@
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark bg-danger fixed-top">
 		<div class="container">
-			<a href="#" class="navbar-brand">Itsco</a>
+			<a href="../index.html" class="navbar-brand mb-0 h1">Itsco</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expand="false" aria-label="Menú de navegación">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a href="#" class="nav-link">Inicio</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
-						<div class="dropdown-menu" aria-labelledby="menu-categorias">
-							<a href="#" class="dropdown-item">unidad 1</a>
+						<a href="#" class="nav-link dropdown-toggle" id="menu-unidades" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+						<div class="dropdown-menu" aria-labelledby="menu-unidades">
+							<a href="unidades.html" class="dropdown-item">unidad 1</a>
 							<a href="#" class="dropdown-item">unidad 2</a>
 							<a href="#" class="dropdown-item">unidad 3</a>
 							<a href="#" class="dropdown-item">unidad 4</a>
@@ -36,22 +36,17 @@
 						</div>
 					</li>
 				</ul>
-
-				<form action="" class="form-inline my-2 my-md-0">
-					<input type="text" class="form-control mr-sm-2" placeholder="Buscar:" aria-label="Buscar">
-					<button class="btn btn-light my-sm-0" type="submit">Buscar</button>
-				</form>
 			</div>
 		</div>	
 	</nav>
 
 	<div class="container">
-		<div class="row mt-3 justify-content-around">
+		<div class="row mt-3 justify-content-center">
 
 			<!-- Card para objetivo -->
-			<div class="col-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="../img/objetivo.jpg" alt="Card image cap">
+			<div class="col-3">
+				<div class="card">
+					<img class="card-img-top" src="../img/objetivo.jpg" alt="Card image cap" width="286" height="190">
 					<div class="card-body">
 						<h5 class="card-title">Objetivo</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -88,9 +83,9 @@
 			</div>
 
 			<!-- Card para temario -->
-			<div class="col-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="../img/temario.jpg" alt="Card image cap">
+			<div class="col-3">
+				<div class="card">
+					<img class="card-img-top" src="../img/temario.jpg" alt="Card image cap" width="286" height="190">
 					<div class="card-body">
 						<h5 class="card-title">Temario</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,11 +122,11 @@
 											Teoría de la partida doble
 										</li>
 										<li class="list-group-item">
-											<h5>unidad 4</h5>
+											<h5>Unidad 4</h5>
 											Sistemas de registro
 										</li>
 										<li class="list-group-item">
-											<h5>unidad 5</h5>
+											<h5>Unidad 5</h5>
 											Análisis e interpretación de la información financiera
 										</li>
 									</ul>						        
@@ -146,9 +141,9 @@
 			</div>
 
 			<!-- Card para evaluación -->
-			<div class="col-4">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="../img/evaluacion.jpg" alt="Card image cap">
+			<div class="col-3">
+				<div class="card">
+					<img class="card-img-top" src="../img/evaluacion.jpg" alt="Card image cap" width="286" height="190">
 					<div class="card-body">
 						<h5 class="card-title">Evaluación</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -173,15 +168,15 @@
 									<div class="modal-body">
 										<ul class="list-group">
 											<li class="list-group-item d-flex justify-content-between align-items-center">
-												Examen
+												<strong>Examen</strong>
 												<span class="badge badge-primary badge-pill">40%</span>
 											</li>
 											<li class="list-group-item d-flex justify-content-between align-items-center">
-												Proyecto
+												<strong>Proyecto</strong>
 												<span class="badge badge-primary badge-pill">60%</span>
 											</li>
 											<li class="list-group-item d-flex justify-content-between align-items-center">
-												Total
+												<strong>Total</strong>
 												<span class="badge badge-primary badge-pill">100%</span>
 											</li>
 										</ul>										
@@ -196,7 +191,6 @@
 			</div>
 		</div>
 
-		<div class="row" style="margin-top: 1000px;"></div>
 	</div>
 
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
